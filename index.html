@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sebastian Chu</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+            integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="CSS/style.css" />
+    </head>
+
+    <body>
+        <header>
+            <a href="#home" class="logo">portafolio</a>
+            <div class="toggle" onclick="toggleMenu();"></div>
+            <ul class="menu">
+                <li><a href="#home" onclick="toggleMenu();">Inicio</a></li>
+                <li><a href="#about" onclick="toggleMenu();">Sobre Mí</a></li>
+                <li>
+                    <a href="#services" onclick="toggleMenu();">Servicios</a>
+                </li>
+                <li><a href="#work" onclick="toggleMenu();">Trabajos</a></li>
+                <li>
+                    <a href="#testimonial" onclick="toggleMenu();"
+                        >Testimonios</a
+                    >
+                </li>
+                <li><a href="#contact" onclick="toggleMenu();">Contacto</a></li>
+            </ul>
+        </header>
+
+        <section class="banner" id="home">
+            <div class="textBx">
+                <h2>Hola, soy<br /><span>Sebastian Chu.</span></h2>
+                <h3>Soy un Front End Web Developer</h3>
+                <a href="#about" class="btn">Sobre Mí</a>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="heading">
+                <h2>Sobre Mí</h2>
+            </div>
+            <div class="content">
+                <div class="contentBx w50">
+                    <h3>Soy un Front End Web Developer</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Maecenas rhoncus justo turpis, sed tempus neque tempus
+                        vel. Phasellus placerat mattis purus ac maximus.
+                        Pellentesque feugiat dapibus est a eleifend. Morbi
+                        euismod nisi scelerisque augue accumsan, fringilla
+                        ultricies mauris lacinia. Mauris luctus justo
+                        scelerisque, sollicitudin odio quis, pellentesque nisl.
+                        Maecenas auctor ornare purus a egestas. Aenean sit amet
+                        erat nulla. Interdum et malesuada fames ac ante ipsum
+                        primis in faucibus.<br /><br />Nullam mi lectus,
+                        molestie eget urna dictum, tincidunt ullamcorper sem.
+                        Etiam malesuada eget diam eu aliquet. Aenean feugiat
+                        dignissim nisl, non porttitor augue facilisis non. Donec
+                        et finibus nibh. Quisque ut nisi pretium leo viverra
+                        tristique id tincidunt arcu. Duis fringilla felis sed
+                        ipsum lacinia fringilla ut non magna. Suspendisse a
+                        pulvinar turpis, commodo volutpat mi.
+                    </p>
+                </div>
+                <div class="w50">
+                    <img src="../images/img1.jpg" class="img" alt="imagen1" />
+                </div>
+            </div>
+        </section>
+
+        <section class="services" id="services">
+            <div class="heading white">
+                <h2>Servicios</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="content">
+                <div class="servicesBx">
+                    <img src="../images/icon1.png" alt="icon1" />
+                    <h2>Web Design</h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Magni fugit voluptates modi beatae distinctio
+                        commodi illum, aperiam est ab non molestias repellat
+                        ipsam impedit explicabo omnis officia aut dicta
+                        quisquam.
+                    </p>
+                </div>
+                <div class="servicesBx">
+                    <img src="../images/icon2.png" alt="icon2" />
+                    <h2>Web Development</h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Magni fugit voluptates modi beatae distinctio
+                        commodi illum, aperiam est ab non molestias repellat
+                        ipsam impedit explicabo omnis officia aut dicta
+                        quisquam.
+                    </p>
+                </div>
+                <div class="servicesBx">
+                    <img src="../images/icon3.png" alt="icon3" />
+                    <h2>Android App</h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Magni fugit voluptates modi beatae distinctio
+                        commodi illum, aperiam est ab non molestias repellat
+                        ipsam impedit explicabo omnis officia aut dicta
+                        quisquam.
+                    </p>
+                </div>
+                <div class="servicesBx">
+                    <img src="../images/icon4.png" alt="icon4" />
+                    <h2>Photography</h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Magni fugit voluptates modi beatae distinctio
+                        commodi illum, aperiam est ab non molestias repellat
+                        ipsam impedit explicabo omnis officia aut dicta
+                        quisquam.
+                    </p>
+                </div>
+                <div class="servicesBx">
+                    <img src="../images/icon5.png" alt="icon5" />
+                    <h2>Content Writing</h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Magni fugit voluptates modi beatae distinctio
+                        commodi illum, aperiam est ab non molestias repellat
+                        ipsam impedit explicabo omnis officia aut dicta
+                        quisquam.
+                    </p>
+                </div>
+                <div class="servicesBx">
+                    <img src="../images/icon6.png" alt="icon6" />
+                    <h2>Video Editing</h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Magni fugit voluptates modi beatae distinctio
+                        commodi illum, aperiam est ab non molestias repellat
+                        ipsam impedit explicabo omnis officia aut dicta
+                        quisquam.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="work" id="work">
+            <div class="heading">
+                <h2>Mis Últimos Trabajos</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="content">
+                <div class="workBx">
+                    <img src="../images/product1.jpg" />
+                </div>
+                <div class="workBx">
+                    <img src="../images/product2.jpg" />
+                </div>
+                <div class="workBx">
+                    <img src="../images/product3.jpg" />
+                </div>
+                <div class="workBx">
+                    <img src="../images/product4.jpg" />
+                </div>
+            </div>
+            <div class="heading">
+                <a href="#" class="btn">Ver mas</a>
+            </div>
+        </section>
+
+        <section class="testimonial" id="testimonial">
+            <div class="heading">
+                <h2>Testimonios</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="content">
+                <div class="testimonialBx">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Reprehenderit minus voluptates possimus quo itaque,
+                        minima deserunt similique pariatur commodi doloremque
+                        aliquam sapiente vel ratione cum, reiciendis earum sint
+                        mollitia corporis!
+                    </p>
+                    <h3>Persona Random<br /><span>Diseñador Creativo</span></h3>
+                </div>
+                <div class="testimonialBx">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Reprehenderit minus voluptates possimus quo itaque,
+                        minima deserunt similique pariatur commodi doloremque
+                        aliquam sapiente vel ratione cum, reiciendis earum sint
+                        mollitia corporis!
+                    </p>
+                    <h3>Persona Random<br /><span>Diseñador Creativo</span></h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="heading white">
+                <h2>Contactame</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="content">
+                <div class="contactInfo">
+                    <h3>Información de Contacto</h3>
+                    <div class="contactInfoBx">
+                        <div class="box">
+                            <div class="icon">
+                                <i class="fa fa-map-marker"></i>
+                            </div>
+                            <div class="text">
+                                <h3>Dirección</h3>
+                                <p>
+                                    Malecón De La Reserva 615, Miraflores Lima,
+                                    <br />Lima 18 Perú
+                                </p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="icon">
+                                <i class="fa fa-phone"></i>
+                            </div>
+                            <div class="text">
+                                <h3>Número de teléfono</h3>
+                                <p>999 999 999</p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="icon">
+                                <i
+                                    class="fa fa-envelope"
+                                    aria-hidden="true"
+                                ></i>
+                            </div>
+                            <div class="text">
+                                <h3>Email</h3>
+                                <p>chu.sebastian.cs@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="formBx">
+                    <form>
+                        <h3>Deja tus Comentarios</h3>
+                        <input type="text" placeholder="Nombre Completo" />
+                        <input type="email" placeholder="Email" />
+                        <textarea placeholder="Tu comentario"></textarea>
+                        <input type="submit" value="Enviar" />
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <div class="copyright">
+            <p>
+                Copyright © 2020 Diseño & Desarrollo Web. Todos los derechos
+                reservados
+            </p>
+        </div>
+
+        <script>
+            window.addEventListener("scroll", function () {
+                const header = document.querySelector("header");
+                header.classList.toggle("sticky", window.scrollY > 0);
+            });
+
+            function toggleMenu() {
+                const menuToggle = document.querySelector(".toggle");
+                const menu = document.querySelector(".menu");
+                menuToggle.classList.toggle("active");
+                menu.classList.toggle("active");
+            }
+        </script>
+    </body>
+</html>
